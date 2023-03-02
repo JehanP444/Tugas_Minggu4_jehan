@@ -1,0 +1,20 @@
+{
+  "name": "belajarapikuncie",
+  "version": "1.0.0",
+  "description": "PR WEEK 4 API MOCHA CHAI",
+  "main": "index.js",
+  "scripts": {
+    "check_version_mocha": "npx mocha --version",
+    "test-pr": "npx mocha tests/test_api_jehan.js --timeout 10000 --reporter mochawesome --require hooks/hooks.js --require mochawesome/register",
+    "test-": "npx mocha testing/test_api_jehan.js --timeout 10000 --reporter mochawesome --require hooks/hooks.js --require mochawesome/register"
+  },
+  "author": "jehan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}
